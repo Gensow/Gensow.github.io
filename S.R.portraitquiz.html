@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>鈴ノ宮凛似顔絵クイズ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="quiz-container">
+
+  <!-- スタート画面 -->
+  <div id="start-screen">
+    <h1>鈴ノ宮凛 似顔絵クイズ</h1>
+    <p>全20問、毎回ランダムに出題されます。</p>
+    <p>凛ちゃんの描いた似顔絵、誰かわかるかな？</p>
+    <button onclick="startQuiz()">クイズスタート</button>
+  </div>
+
+  <!-- クイズ画面（最初は非表示） -->
+  <div id="quiz-screen" style="display: none;">
+
+    <h1>これ、誰？</h1>
+
+    <h2 id="question-number">第1問</h2>
+
+    <img id="quiz-image" src="" alt="問題画像" width="300">
+
+    <div id="choices"></div>
+
+    <p id="progress">現在のスコア: 0 点</p>
+
+  </div>
+
+</div>
+
+  <!-- JSは必ずbodyの最後 -->
+  <script src="script.js"></script>
+
+</body>
+</html>
