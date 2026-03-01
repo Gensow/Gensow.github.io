@@ -291,7 +291,11 @@ function showFinalScore() {
     `<h2>終了！</h2>
      <p>最終スコア: ${score} / ${maxScore} 点</p>
      <p class="${messageClass}">${message}</p>
-     <button onclick="location.reload()">もう1回遊ぶ！</button>`;
+     
+     <div class="result-buttons">
+     <button onclick="location.reload()">もう1回遊ぶ！</button>
+     <button onclick="location.href='../index.html'">ホームに戻る</button>
+   </div>`;
 }
 
 function startQuiz() {
