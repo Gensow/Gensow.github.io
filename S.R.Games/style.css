@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  min-height: 100vh;
+
+  background: linear-gradient(
+    to bottom,
+    #ED7165 0%,
+    #D5AFA0 50%,
+    #AAE1D0 100%
+  );
+}
+
+.quiz-container {
+  max-width: 600px;
+  margin: 40px auto;   /* ← 横中央 */
+  padding: 20px;
+  text-align: center;  /* ← 中の文字・画像を中央に */
+}
+
+.quiz-image {
+  width: 300px;
+  margin: 20px 0;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.result-message {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#quiz-screen h1 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+#quiz-screen h2 {
+  font-size: 22px;
+  margin-top: 0;
+}
