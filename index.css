@@ -168,3 +168,23 @@ aside {
 	padding: 15px;
 }
 }
+/* 折りたたみメニュー用 */
+.collapsible-title {
+  cursor: pointer;
+  display: block;
+  user-select: none;
+  padding: 5px 0;
+}
+
+.collapsible-content {
+  display: none; /* 初期は非表示 */
+  padding-left: 15px; /* 親から少しインデント */
+}
+
+.collapsible-content li {
+  padding: 3px 0;
+}
+
+.collapsible-title:hover {
+  color: #003366;
+}
