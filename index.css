@@ -188,3 +188,11 @@ aside {
 .collapsible-title:hover {
   color: #003366;
 }
+.collapsible-content {
+  display: none;
+  padding-left: 15px;
+}
+
+.collapsible.open .collapsible-content {
+  display: block;
+}
