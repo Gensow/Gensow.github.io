@@ -1,10 +1,15 @@
 document.addEventListener("DOMContentLoaded", function() {
   document.querySelectorAll('.collapsible-title').forEach(title => {
+    const parent = title.parentElement;
+
     title.addEventListener('click', () => {
-      const content = title.nextElementSibling;
-      const isOpen = content.style.display === 'block';
-      content.style.display = isOpen ? 'none' : 'block';
-      title.textContent = title.textContent.replace(isOpen ? '▾' : '▸', isOpen ? '▸' : '▾');
+      parent.classList.toggle("open");
+
+      if (parent.classList.contains("open")) {
+        title.textContent = title.textContent.replace("▸", "▾");
+      } else {
+        title.textContent = title.textContent.replace("▾", "▸");
+      }
     });
   });
-});
+});;
