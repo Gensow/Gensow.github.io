@@ -48,7 +48,7 @@ h3 {
 }
 #content {
 	float: right;
-	width: 70%;
+	width: 75%;
 }
 .inner {
 	padding: 20px 30px 20px 0;
@@ -83,7 +83,7 @@ a {
 }
 aside {
 	color: #676767;
-	width: 30%;
+	width: 25%;
 	float: left;
 }
 #side-inner {
