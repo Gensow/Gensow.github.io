@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-	background-color: #F2F2F2;
+	background-color: #d3b1de;
 	margin: 0;
 	padding: 0;
 	line-height: 1.6;
@@ -79,7 +79,7 @@ hr {
 	height: 1px;
 }
 a {
-	color: #003366;
+	color: #591994;
 }
 aside {
 	color: #676767;
